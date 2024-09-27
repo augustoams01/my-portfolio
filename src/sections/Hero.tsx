@@ -12,12 +12,12 @@ export const HeroSection = () => {
 
     <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]">
 
-      <div className='absolute inset-0 -z-30 opacity-30 bg-cover' style={{backgroundImage: `url(${grainImage.src})`}}></div>
+      <div className='absolute inset-0 -z-30 opacity-50 bg-cover' style={{backgroundImage: `url(${grainImage.src})`}}></div>
 
       <div className='hero-circle'></div>
       <div className='hero-circle size-[900px]'></div>
       <div className='hero-circle size-[1080px]'></div>
-      <div className='hero-circle size-[1220px]'></div>
+      <div className='hero-circle size-[1220px]'></div> 
 
       <HeroOrbit size={800} rotation={-72}>
         <StarIcon className="size-28 text-sky-300"/>

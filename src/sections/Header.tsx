@@ -6,9 +6,9 @@ export const Header = () => {
 
     <div className="flex justify-around items-center fixed top-3 w-full z-40">
       
-      <div className="w-[100px] lg:block md:block sm:hidden">
-        <h1 className="text-2xl font-semibold font-serif">Alex.</h1>
-      </div>
+      {/* <div className="w-[100px] lg:block md:block sm:hidden">
+        <h1 className="text-2xl font-semibold font-serif lg:block md:block sm:hidden">Alex.</h1>
+      </div> */}
       
       <div className="flex items-center justify-center">
         <nav className="flex gap-1 p-0.5 border border-white/15 rounded-full bg-white/10 backdrop-blur">
@@ -20,11 +20,11 @@ export const Header = () => {
       </div>
 
          
-      <nav className="flex gap-3 p-0.5 lg:flex md:flex  sm:hidden">
+      {/* <nav className="flex gap-3 p-0.5 lg:flex md:flex  sm:hidden">
         <a href="#" className=""><FaGithub size={25}/></a>
         <a href="#" className=""><FaInstagram size={25}/></a>
         <a href="#" className=""><FaLinkedin size={25}/></a>
-      </nav>
+      </nav> */}
     </div>
       
   )

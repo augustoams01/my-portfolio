@@ -47,7 +47,7 @@ export const TestimonialsSection = () => {
     <div className="py-16">
       <div  className="container">
         <SectionHeader eyebrow="Clientes Felizes" title="O que falam sobre mim" description="Não acredite apenas na minha palavra, veja só o que meus clientes falam do meu trabalho "/>
-        <div className="mt-16 flex overflow-x-clip [mask-image:liner-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
+        <div className="mt-16 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
           <div className="flex flex-none gap-8 ">
           {testimonials.map((testimonial)=>(
             <Card key={testimonial.name} className="max-w-xs">

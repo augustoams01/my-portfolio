@@ -19,19 +19,7 @@ export const HeroSection = () => {
       <div className='hero-circle size-[1080px]'></div>
       <div className='hero-circle size-[1220px]'></div> 
 
-      <HeroOrbit size={800} rotation={-72}>
-        <StarIcon className="size-28 text-sky-300"/>
-      </HeroOrbit>
-
-      <HeroOrbit size={550} rotation={20}>
-        <StarIcon className="size-12 text-sky-300"/>
-      </HeroOrbit>
-
-      <HeroOrbit size={590} rotation={98}>
-        <StarIcon className="size-8 text-sky-300"/>
-      </HeroOrbit>
-
-      <HeroOrbit size={430} rotation={-14}>
+      <HeroOrbit size={430} rotation={-14} shouldOrbit orbitDuration='10'>
         <SparkleIcon className="size-8 text-sky-300/20"/>
       </HeroOrbit>
 
@@ -39,8 +27,21 @@ export const HeroSection = () => {
         <SparkleIcon className="size-5 text-sky-300/20"/>
       </HeroOrbit>
 
+      <HeroOrbit size={550} rotation={20}>
+        <StarIcon className="size-12 text-sky-300"/>
+      </HeroOrbit>
+
+      <HeroOrbit size={580} rotation={230}>
+        <div className="size-3 rounded-full bg-sky-300/20"/>
+      </HeroOrbit>
+
       <HeroOrbit size={580} rotation={178}>
         <SparkleIcon className="size-10 text-sky-300/20"/>
+      </HeroOrbit>
+
+      
+      <HeroOrbit size={590} rotation={98}>
+        <StarIcon className="size-8 text-sky-300"/>
       </HeroOrbit>
 
       <HeroOrbit size={710} rotation={143}>
@@ -51,12 +52,13 @@ export const HeroSection = () => {
         <div className="size-3 rounded-full bg-sky-300/20"/>
       </HeroOrbit>
 
+
       <HeroOrbit size={720} rotation={85}>
         <div className="size-3 rounded-full bg-sky-300/20"/>
       </HeroOrbit>
 
-      <HeroOrbit size={580} rotation={230}>
-        <div className="size-3 rounded-full bg-sky-300/20"/>
+      <HeroOrbit size={800} rotation={-72}>
+        <StarIcon className="size-28 text-sky-300"/>
       </HeroOrbit>
 
     </div>

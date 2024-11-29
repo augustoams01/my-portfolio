@@ -85,13 +85,17 @@ export const HeroSection = () => {
       </div>
 
       <div className='flex flex-col items-center mt-8 gap-4 md:flex-row justify-center'>
-        <button className='inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl'>
+        <button className='inline-flex items-center gap-2 border border-white/15  h-12 rounded-xl'>
+          <a href="#projects" className='flex items-center gap-2 px-6'>
           <span className='font-semibold'>Explore Meu Trabalho</span>
           <ArrowDown className="size-4"/>
+          </a>
         </button>
-        <button className='inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl'>
-          <span>👋</span>
-          <span className='font-semibold'>Vamos Conversar</span>
+        <button className='inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 rounded-xl'>
+          <a href="mailto:augustoams@gmail.com" className='rounded-md h-full px-6 flex items-center gap-2'>
+            <span>👋</span>
+            <span className='font-semibold'>Vamos Conversar</span>
+          </a>
         </button>
       </div>
 

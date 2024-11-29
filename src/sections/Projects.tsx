@@ -18,7 +18,6 @@ const portfolioProjects = [
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
     image: darkSaasLandingPage,
   },
   {
@@ -30,7 +29,6 @@ const portfolioProjects = [
       { title: "Expanded customer reach by 35%" },
       { title: "Increased brand awareness by 15%" },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
     image: lightSaasLandingPage,
   },
   {
@@ -42,7 +40,6 @@ const portfolioProjects = [
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
     image: aiStartupLandingPage,
   },
 ];
@@ -80,7 +77,7 @@ export const ProjectsSection = () => {
                       </li>
                     ))}
                   </ul>
-                  <a href={project.link}>
+                  <a>
                     <button className="inline-flex px-5 bg-white text-gray-950 h-12 w-full rounded-xl font-semibold items-center justify-center gap-2 mt-8 md:w-auto"><span className="font-normal">Visitar o site</span><ArrouwUpRight className="size-4"/></button>
                   </a>
                 </div>
